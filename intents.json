@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon"],
+      "responses": ["Hello! Welcome to College Assistant. How can I help you today?", "Hi there! Ask me anything about our college."]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["admissions", "how to apply", "admission process", "when is admission", "application deadline"],
+      "responses": ["Admissions open in May each year. Last date is July 31st. Apply online at our college website.", "You need 50% minimum in 12th grade. The application fee is ₹500."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["courses", "which courses", "programs offered", "btech", "mtech", "bca", "mca"],
+      "responses": ["We offer B.Tech (CS, IT, ECE, Mechanical), BCA, MCA, BBA, MBA, and B.Sc programs.", "Popular courses: B.Tech CSE (120 seats), BCA (60 seats), MBA (60 seats)."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "tuition fee", "course fee", "how much does it cost", "fee structure"],
+      "responses": ["B.Tech fee: ₹85,000/year. BCA: ₹55,000/year. MBA: ₹1,20,000/year. Hostel: ₹45,000/year.", "Scholarships available for merit students (10-25% fee waiver)."]
+    },
+    {
+      "tag": "schedule",
+      "patterns": ["schedule", "academic calendar", "exam dates", "holidays", "semester dates"],
+      "responses": ["Odd semester: July-Nov. Even semester: Dec-April. Exams in May and December.", "Diwali break (Oct/Nov), Winter break (Dec 25-Jan 1), Summer break (May-June)."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["library", "cafeteria", "sports", "hostel", "lab", "facilities", "campus"],
+      "responses": ["We have a digital library open 8 AM-10 PM, 3 canteens, sports complex, and separate boys/girls hostels.", "WiFi campus, smart classrooms, and 24/7 medical room available."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["placement", "jobs", "campus placement", "recruiters", "salary", "package"],
+      "responses": ["Average placement: 4.5 LPA. Top recruiters: TCS, Infosys, Amazon, Wipro, Accenture.", "90% of eligible students placed last year. Highest package: 24 LPA (Amazon)."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "phone", "email", "address", "office", "helpdesk"],
+      "responses": ["Admission office: 1800-123-4567 | Email: admissions@college.edu", "Campus: College Road, Civil Lines, Delhi-110054"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "thank you", "thanks", "see you", "goodbye"],
+      "responses": ["You're welcome! Come back if you have more questions.", "Happy to help! Good luck with your college journey!"]
+    }
+  ]
+}

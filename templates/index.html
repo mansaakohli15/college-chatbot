@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Assistant | Your Campus Guide</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-wrapper">
+            <div class="chat-header">
+                <div class="header-avatar">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="header-text">
+                    <h1>College Assistant</h1>
+                    <p>Ask me anything about admissions, courses, fees & more</p>
+                </div>
+                <div class="header-controls">
+                    <button id="voiceBtn" class="voice-btn" title="Voice input">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <button id="langBtn" class="lang-btn" title="Hindi (Beta)">
+                        <i class="fas fa-language"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <div class="message-avatar"><i class="fas fa-robot"></i></div>
+                    <div class="message-bubble">
+                        <p>👋 Hello! I'm your college assistant. Ask me about admissions, courses, fees, schedules, placements, or campus facilities!</p>
+                        <span class="message-time">Just now</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-area">
+                <div class="input-wrapper">
+                    <input type="text" id="userInput" placeholder="Type your question here..." autocomplete="off">
+                    <button id="sendBtn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="suggestions">
+                    <span class="suggestion-chip">📚 Admission dates?</span>
+                    <span class="suggestion-chip">💰 Course fees?</span>
+                    <span class="suggestion-chip">💼 Placement details?</span>
+                    <span class="suggestion-chip">🏫 Campus facilities?</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
