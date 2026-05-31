@@ -10,8 +10,8 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-# Load intents
-with open('intents.json', 'r') as file:
+# Load intents with proper encoding
+with open('intents.json', 'r', encoding='utf-8') as file:
     intents = json.load(file)
 
 lemmatizer = WordNetLemmatizer()

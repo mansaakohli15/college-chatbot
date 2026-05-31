@@ -2,48 +2,48 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon"],
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "namaste"],
       "responses": ["Hello! Welcome to College Assistant. How can I help you today?", "Hi there! Ask me anything about our college."]
     },
     {
       "tag": "admissions",
-      "patterns": ["admissions", "how to apply", "admission process", "when is admission", "application deadline"],
-      "responses": ["Admissions open in May each year. Last date is July 31st. Apply online at our college website.", "You need 50% minimum in 12th grade. The application fee is ₹500."]
+      "patterns": ["admissions", "how to apply", "admission process", "when is admission", "application deadline", "when do admissions start", "admission date", "apply for college"],
+      "responses": ["Admissions open in May each year. Last date is July 31st. Apply online at our college website.", "You need 50% minimum in 12th grade. The application fee is 500."]
     },
     {
       "tag": "courses",
-      "patterns": ["courses", "which courses", "programs offered", "btech", "mtech", "bca", "mca"],
+      "patterns": ["courses", "which courses", "programs offered", "btech", "mtech", "bca", "mca", "what courses", "courses available", "what do you offer"],
       "responses": ["We offer B.Tech (CS, IT, ECE, Mechanical), BCA, MCA, BBA, MBA, and B.Sc programs.", "Popular courses: B.Tech CSE (120 seats), BCA (60 seats), MBA (60 seats)."]
     },
     {
       "tag": "fees",
-      "patterns": ["fees", "tuition fee", "course fee", "how much does it cost", "fee structure"],
-      "responses": ["B.Tech fee: ₹85,000/year. BCA: ₹55,000/year. MBA: ₹1,20,000/year. Hostel: ₹45,000/year.", "Scholarships available for merit students (10-25% fee waiver)."]
+      "patterns": ["fees", "tuition fee", "course fee", "how much does it cost", "fee structure", "what is the fee", "fee for btech", "btech fees", "bca fee", "mba fees", "cost of course", "how much to pay", "fee amount"],
+      "responses": ["B.Tech fee: 85,000 per year. BCA: 55,000 per year. MBA: 1,20,000 per year. Hostel: 45,000 per year.", "Scholarships available for merit students. Fee waiver from 10% to 25%."]
     },
     {
       "tag": "schedule",
-      "patterns": ["schedule", "academic calendar", "exam dates", "holidays", "semester dates"],
-      "responses": ["Odd semester: July-Nov. Even semester: Dec-April. Exams in May and December.", "Diwali break (Oct/Nov), Winter break (Dec 25-Jan 1), Summer break (May-June)."]
+      "patterns": ["schedule", "academic calendar", "exam dates", "holidays", "semester dates", "when are exams", "exam schedule", "holiday list"],
+      "responses": ["Odd semester runs July to November. Even semester runs December to April. Exams in May and December.", "Diwali break in October or November. Winter break from Dec 25 to Jan 1. Summer break from May to June."]
     },
     {
       "tag": "facilities",
-      "patterns": ["library", "cafeteria", "sports", "hostel", "lab", "facilities", "campus"],
-      "responses": ["We have a digital library open 8 AM-10 PM, 3 canteens, sports complex, and separate boys/girls hostels.", "WiFi campus, smart classrooms, and 24/7 medical room available."]
+      "patterns": ["library", "cafeteria", "sports", "hostel", "lab", "facilities", "campus", "what facilities", "campus facilities"],
+      "responses": ["We have a digital library open from 8 AM to 10 PM, 3 canteens, sports complex, and separate boys and girls hostels.", "WiFi campus, smart classrooms, and 24/7 medical room available."]
     },
     {
       "tag": "placement",
-      "patterns": ["placement", "jobs", "campus placement", "recruiters", "salary", "package"],
-      "responses": ["Average placement: 4.5 LPA. Top recruiters: TCS, Infosys, Amazon, Wipro, Accenture.", "90% of eligible students placed last year. Highest package: 24 LPA (Amazon)."]
+      "patterns": ["placement", "jobs", "campus placement", "recruiters", "salary", "package", "tell me about placements", "placement details", "job opportunities"],
+      "responses": ["Average placement is 4.5 LPA. Top recruiters include TCS, Infosys, Amazon, Wipro, Accenture.", "90 percent of eligible students got placed last year. Highest package was 24 LPA from Amazon."]
     },
     {
       "tag": "contact",
-      "patterns": ["contact", "phone", "email", "address", "office", "helpdesk"],
-      "responses": ["Admission office: 1800-123-4567 | Email: admissions@college.edu", "Campus: College Road, Civil Lines, Delhi-110054"]
+      "patterns": ["contact", "phone", "email", "address", "office", "helpdesk", "college phone", "college email"],
+      "responses": ["Admission office phone: 1800-123-4567. Email: admissions@college.edu", "Campus address: College Road, Civil Lines, Delhi-110054"]
     },
     {
       "tag": "goodbye",
-      "patterns": ["bye", "thank you", "thanks", "see you", "goodbye"],
-      "responses": ["You're welcome! Come back if you have more questions.", "Happy to help! Good luck with your college journey!"]
+      "patterns": ["bye", "thank you", "thanks", "see you", "goodbye", "thanks for help"],
+      "responses": ["You are welcome! Come back if you have more questions.", "Happy to help! Good luck with your college journey."]
     }
   ]
 }

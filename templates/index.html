@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Assistant | Your Campus Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>College Assistant | Smart Campus Guide</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="header-text">
                     <h1>College Assistant</h1>
-                    <p>Ask me anything about admissions, courses, fees & more</p>
+                    <p>✨ Your 24/7 campus guide — Ask anything!</p>
                 </div>
                 <div class="header-controls">
                     <button id="voiceBtn" class="voice-btn" title="Voice input">
@@ -33,7 +33,7 @@
                 <div class="message bot">
                     <div class="message-avatar"><i class="fas fa-robot"></i></div>
                     <div class="message-bubble">
-                        <p>👋 Hello! I'm your college assistant. Ask me about admissions, courses, fees, schedules, placements, or campus facilities!</p>
+                        <p>👋 Hey there! I'm your college assistant. Ask me about <strong>admissions, courses, fees, schedules, placements, or campus facilities</strong> — I'm here to help! 🎓</p>
                         <span class="message-time">Just now</span>
                     </div>
                 </div>
@@ -47,10 +47,11 @@
                     </button>
                 </div>
                 <div class="suggestions">
-                    <span class="suggestion-chip">📚 Admission dates?</span>
-                    <span class="suggestion-chip">💰 Course fees?</span>
-                    <span class="suggestion-chip">💼 Placement details?</span>
-                    <span class="suggestion-chip">🏫 Campus facilities?</span>
+                    <span class="suggestion-chip">📚 When do admissions start?</span>
+                    <span class="suggestion-chip">💰 What is the fee for B.Tech?</span>
+                    <span class="suggestion-chip">💼 Tell me about placements</span>
+                    <span class="suggestion-chip">🏫 What facilities are on campus?</span>
+                    <span class="suggestion-chip">📅 When are the exams?</span>
                 </div>
             </div>
         </div>
