@@ -16,7 +16,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Animated floating orbs */
 body::before {
     content: '';
     position: absolute;
@@ -56,13 +55,10 @@ body::after {
     z-index: 1;
 }
 
-/* Main Chat Card */
 .chat-wrapper {
     background: rgba(255, 253, 249, 0.98);
     border-radius: 56px;
-    box-shadow: 
-        0 30px 60px -20px rgba(0, 0, 0, 0.2),
-        0 0 0 1px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.6);
     overflow: hidden;
     height: 90vh;
     display: flex;
@@ -75,7 +71,6 @@ body::after {
     box-shadow: 0 35px 70px -20px rgba(0, 0, 0, 0.25);
 }
 
-/* Header */
 .chat-header {
     background: linear-gradient(125deg, #E88D67 0%, #D97A5C 40%, #C26A4E 100%);
     padding: 24px 32px;
@@ -175,7 +170,6 @@ body::after {
     border-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Messages Area */
 .chat-messages {
     flex: 1;
     overflow-y: auto;
@@ -187,7 +181,6 @@ body::after {
     scroll-behavior: smooth;
 }
 
-/* Message animations */
 .message {
     display: flex;
     gap: 14px;
@@ -267,7 +260,6 @@ body::after {
     font-weight: 400;
 }
 
-/* Typing Animation */
 .typing-indicator {
     display: flex;
     gap: 8px;
@@ -302,7 +294,6 @@ body::after {
     }
 }
 
-/* Input Area */
 .chat-input-area {
     padding: 20px 28px 28px 28px;
     background: #FFFDF9;
@@ -367,7 +358,6 @@ body::after {
     box-shadow: 0 2px 8px rgba(232, 141, 103, 0.4);
 }
 
-/* Suggestion Chips */
 .suggestions {
     display: flex;
     gap: 12px;
@@ -396,7 +386,6 @@ body::after {
     box-shadow: 0 10px 25px rgba(232, 141, 103, 0.25);
 }
 
-/* Scrollbar */
 .chat-messages::-webkit-scrollbar {
     width: 5px;
 }
@@ -416,7 +405,6 @@ body::after {
     background: #C4B5A6;
 }
 
-/* Recording Animation */
 .recording {
     animation: recordPulse 1.2s infinite;
     background: #C26A4E !important;
@@ -431,13 +419,11 @@ body::after {
     }
 }
 
-/* Welcome message special styling */
 .message:first-child .message-bubble {
     background: linear-gradient(135deg, #7BAF6E15 0%, #E88D6715 100%);
     border: 1px solid rgba(232, 141, 103, 0.2);
 }
 
-/* Mobile */
 @media (max-width: 768px) {
     body {
         padding: 12px;
@@ -502,7 +488,6 @@ body::after {
     }
 }
 
-/* Desktop */
 @media (min-width: 1024px) {
     .chat-wrapper {
         transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
